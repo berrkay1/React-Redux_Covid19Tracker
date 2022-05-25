@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+}
+.logo{
+  margin-top: 20px;
+}
+.container-fluid{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    .card{
+      margin: 10px;
+      margin-top: 20px;
+      height: 24rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      flex-direction: column;
+      .card-header{
+        font-size: 25px;
+      }
+      .card-title{
+        font-size: 20px;
+      }
+    }
+  }
+}
